@@ -75,7 +75,7 @@ public class TestBase {
 		// To add system or environment info by using the addSystemInfo method.
 		extent.addSystemInfo("User Name", "Suriya");
 		extent.addSystemInfo("Environment", "Automation Testing");
-		extent.addSystemInfo("Application", "Sarasu");
+		extent.addSystemInfo("Application", "Medbot");
 		extent.addSystemInfo("Test Scenario", "Functionality Testing");
 
 	}
@@ -138,7 +138,7 @@ public class TestBase {
 
 					protected PasswordAuthentication getPasswordAuthentication() {
 
-						return new PasswordAuthentication("suriyaparithy@gmail.com", "vgca rwbe emuo uhea");
+						return new PasswordAuthentication("suriyacwf1parithy@gmail.com", "vnjg rwbe emuo bhbv");
 
 					}
 
@@ -150,10 +150,10 @@ public class TestBase {
 			Message message = new MimeMessage(session);
 
 			// Set the from address
-			message.setFrom(new InternetAddress("suriyaparithy@gmail.com"));
+			message.setFrom(new InternetAddress("surthy@gmail.com"));
 
 			// Set the recipient address
-			message.setRecipients(Message.RecipientType.TO, InternetAddress.parse("sivasystimanx@gmail.com"));
+			message.setRecipients(Message.RecipientType.TO, InternetAddress.parse("siva@gmail.com"));
 
 			// Add the subject link
 			message.setSubject("Automation Testing Report");
